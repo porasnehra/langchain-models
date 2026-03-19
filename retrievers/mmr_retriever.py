@@ -6,7 +6,6 @@ from langchain_core.documents import Document
 
 load_dotenv()
 
-print("=== MMR Retriever (Maximal Marginal Relevance) ===")
 print("Retrieves diverse results using MMR search_type.")
 
 documents = [
