@@ -6,7 +6,6 @@ from langchain_text_splitters import CharacterTextSplitter
 
 load_dotenv()
 
-print("=== Vector Store Retriever ===")
 print("Uses Chroma vectorstore with similarity search retriever.")
 
 documents = [
