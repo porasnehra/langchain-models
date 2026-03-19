@@ -5,7 +5,6 @@ from langchain_community.utilities import WikipediaAPIWrapper
 
 load_dotenv()
 
-print("=== Wikipedia Retriever ===")
 print("Fetches documents directly from Wikipedia API.")
 
 # Initialize Wikipedia retriever
