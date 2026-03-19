@@ -6,7 +6,6 @@ from langchain.retrievers.multi_query import MultiQueryRetriever
 
 load_dotenv()
 
-print("=== MultiQuery Retriever ===")
 print("LLM rewrites query into multiple variants for better retrieval.")
 
 documents = [
