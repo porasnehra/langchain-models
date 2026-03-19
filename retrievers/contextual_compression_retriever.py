@@ -9,7 +9,6 @@ from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
 
-print("=== Contextual Compression Retriever ===")
 print("Retrieves docs then compresses to relevant excerpts using LLM.")
 
 documents = [
